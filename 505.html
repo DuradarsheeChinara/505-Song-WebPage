@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding to support special characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on mobile -->
+    <title>505 - Arctic Monkeys</title>
+    <link rel="icon" type="image/png" href="/Images/music.png"> <!-- Tab icon -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file for styling -->
+</head>
+<body>
+
+    <!-- Page header with song title and album info -->
+    <header>
+        <h1 style="color: rgba(255, 255, 255, 0.796);">505 &mdash; Arctic Monkeys</h1> <!-- &mdash; is a proper em dash — -->
+        <p style="color: rgb(216, 153, 5);">From the album <em>Favourite Worst Nightmare</em> (2007)</p> <!-- <em> italicises the album title -->
+    </header>
+
+    <main>
+
+        <!-- Album cover with caption -->
+        <figure>
+            <img src="/Images/Art.jpeg" alt="Favourite Worst Nightmare Album Cover" height="300">
+            <figcaption>Favourite Worst Nightmare &mdash; Arctic Monkeys</figcaption> <!-- Proper image caption tag -->
+        </figure>
+
+        <!-- Streaming service links -->
+        <hr> <!-- Horizontal divider -->
+        <section>
+            <h3 style="color: rgba(21, 63, 249, 0.795);">Listen on</h3>
+            <a href="https://www.youtube.com/watch?v=CKI8iQTgZKU" target="_blank" title="Listen on YouTube">
+                <img src="/Images/spot.png" alt="YouTube" height="50">
+            </a>
+            &nbsp; <!-- Non-breaking space to add a small gap between the two icons -->
+            <a href="https://open.spotify.com/track/58ge6dfP91o9oXMzq3XkIS" target="_blank" title="Listen on Spotify">
+                <img src="/Images/spot1.png" alt="Spotify" height="50">
+            </a>
+            <audio controls loop> <!-- controls shows the play bar, loop replays the song automatically -->
+                <source src="/Audio/505.mp3" type="audio/mpeg">
+                Your browser does not support the audio element. <!-- Fallback text if browser can't play audio -->
+            </audio>
+        </section>
+
+        <hr> <!-- Horizontal divider -->
+
+        <!-- Song lyrics -->
+        <section>
+            <h2>Lyrics</h2>
+            <pre class="lyrics">
+<!-- <pre> preserves line breaks and spacing exactly as written, ideal for lyrics -->
+I'm going back to 505
+If it's a 7-hour flight or a 45-minute drive
+In my imagination you're waiting lying on your side
+With your hands between your thighs
+
+Stop and wait a sec
+Oh when you look at me like that my darling
+What did you expect?
+I'd probably still adore you with your hands around my neck
+Or I did last time I checked
+
+Not shy of a spark
+A knife twists at the thought that I should fall short of the mark
+Frightened by the bite though it's no harsher than the bark
+Middle of adventure, such a perfect place to start
+
+I'm going back to 505
+If it's a 7-hour flight or a 45-minute drive
+In my imagination you're waiting lying on your side
+With your hands between your thighs
+
+But I crumble completely when you cry
+It seems like once again you've had to greet me with "Goodbye"
+I'm always just about to go and spoil a surprise
+Take my hands off of your eyes too soon
+
+I'm going back to 505
+If it's a 7-hour flight or a 45-minute drive
+In my imagination you're waiting lying on your side
+With your hands between your thighs
+
+...and a smile
+            </pre>
+        </section>
+
+    </main>
+
+    <!-- Page footer with copyright info -->
+    <footer>
+        <p><small>&copy; Arctic Monkeys &mdash; Domino Records</small></p> <!-- &copy; is the © symbol, <small> makes text smaller -->
+    </footer>
+
+</body>
+</html>

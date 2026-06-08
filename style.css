@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.lyrics {
+    color: rgba(237, 237, 32, 0.829);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
