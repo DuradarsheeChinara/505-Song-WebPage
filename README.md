@@ -15,11 +15,13 @@ A simple HTML webpage dedicated to **"505"** by Arctic Monkeys, one of my favori
 ## Technologies Used
 
 * HTML5
+* CSS
 
 ## Project Structure
 
 ```text
-├── index.html
+├── 505.html
+├── style.css
 ├── Images
 │   ├── Art.jpeg
 │   ├── music.png
