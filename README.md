@@ -50,6 +50,7 @@ git clone https://github.com/your-username/505-Song-WebPage.git
 ## Screenshots
 
 ![Website Screenshot](Images/screenshot.png)
+![Website Screenshot](Images/ss2.png)
 
 ## Disclaimer
 
