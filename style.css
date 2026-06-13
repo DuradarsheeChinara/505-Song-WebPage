@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+.lyrics {
+    color: rgba(218, 146, 21, 0.829);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+    text-align: center;
+}
+h1{
+    border : 2px solid rgba(240, 240, 240, 0.393);
+    border-radius: 5px;
+    text-shadow: 4px 4px 5px rgb(216, 153, 5), -4px -4px 5px rgba(237, 237, 32, 0.829);
+    Text-align: center;
+    background-color: rgba(255, 255, 255, 0.408);
+    box-shadow: 4px 4px 6px rgb(55, 55, 55);
+}
+section {
+    margin : 2 px;
+    border: 2px solid rgba(240, 240, 240, 0.393);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.064);
+}
+body{
+    background-image: url("bg.png");    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7); /* 70% dark overlay */
+    z-index: -1;
+}
+main {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+}
