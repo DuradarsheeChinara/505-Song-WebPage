@@ -49,7 +49,7 @@ git clone https://github.com/your-username/505-Song-WebPage.git
 
 ## Screenshots
 
-Add screenshots of the webpage here.
+![Website Screenshot](Images/screenshot.png)
 
 ## Disclaimer
 
