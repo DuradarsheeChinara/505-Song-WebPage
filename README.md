@@ -1,57 +1,62 @@
 # 505-Song-WebPage
-# 505 - Fan Webpage
+# 505 Song FanPage
 
-A simple HTML webpage dedicated to **"505"** by Arctic Monkeys, one of my favorite songs from the album *Favourite Worst Nightmare* (2007).
+A visually immersive fan page dedicated to **"505" by Arctic Monkeys**, featuring album artwork, integrated audio playback, streaming links, lyrics, and a cinematic dark aesthetic inspired by the song's atmosphere.
 
 ## Features
 
-* Album cover display
-* Audio player with song playback
-* Full song lyrics
-* Direct links to YouTube and Spotify
-* Custom favicon
-* Clean and beginner-friendly HTML structure
+* 🎵 Embedded audio player for *505*
+* 🎨 Album artwork and custom favicon
+* 📜 Full song lyrics display
+* 🔗 Quick access to Spotify and YouTube
+* 🌙 Dark cinematic theme with glassmorphism effects
+* 📱 Responsive layout for different screen sizes
 
 ## Technologies Used
 
 * HTML5
-* CSS
+* CSS3
+* Git & GitHub
 
 ## Project Structure
 
 ```text
-├── 505.html
-├── style.css
-├── Images
+505 Song FanPage/
+├── Audio/
+│   └── 505.mp3
+├── Images/
 │   ├── Art.jpeg
-│   ├── music.png
+│   ├── background.jpeg
+│   ├── music3.png
 │   ├── spot.png
 │   └── spot1.png
-└── Audio
-    └── 505.mp3
+├── 505.html
+├── style.css
+└── bg.png
 ```
 
 ## How to Run
 
-1. Clone this repository:
+1. Clone the repository:
 
-   ```bash
-   git clone <repository-url>
-   ```
+```bash
+git clone https://github.com/your-username/505-Song-WebPage.git
+```
 
-2. Open `index.html` in your browser.
+2. Open the project folder.
 
-## Purpose
+3. Launch `505.html` in your browser.
 
-This project was created as a practice exercise while learning HTML and web development. It combines basic webpage elements such as images, links, audio, formatting tags, and page metadata into a single themed project.
+## Screenshots
 
-## Credits
+Add screenshots of the webpage here.
 
-* Song: "505"
-* Artist: Arctic Monkeys
-* Album: Favourite Worst Nightmare (2007)
+## Disclaimer
 
-## License
+This project was created for educational and fan purposes only. All rights to the song, album artwork, and related media belong to Arctic Monkeys and Domino Recording Company.
 
-This project is intended for educational and personal use.
+## Author
 
+**Duradarshee Chinara**
+
+Built as a web development project inspired by one of Arctic Monkeys' most iconic songs.
